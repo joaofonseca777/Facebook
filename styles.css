@@ -1,0 +1,151 @@
+body {
+  display:center ;
+  font-family: Arial, sans-serif;
+  background-color: #ececec;
+  margin: 0;
+  padding: 0;
+}
+
+.facebook-header {
+  text-align: center;
+  justify-content: space-between;
+  background-color:#ececec;
+  padding: 20px;
+}
+
+.logo h1 {
+  text-align: center;
+  background-color: #ececec;
+  color: #3b5998;
+  font-size: 40px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  margin: -20px;
+  
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  width: 300px; 
+  margin: 0 auto; 
+}
+
+
+.login-form input {
+  margin-bottom: 10px; 
+  width: 100%; 
+  padding: 10px; 
+  box-sizing: border-box; 
+}
+
+
+.block-message{
+  border-radius: 10px;
+.login-button {
+  background-color:#3b5998;
+  width: 300px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.forgot-password{
+  background-color: #ffffff;
+  color: #3b5998;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.vazio{
+  font-size: 14px;
+}
+.new-conta{
+  background-color: #2c8b28;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 4px;
+}
+}
+
+
+
+
+.login-form a {
+
+  color: white;
+  margin-left: 10px;
+}
+
+.block-message {
+    
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.block-message h2 {
+  
+  color: #333;
+  font-size: 15px;
+}
+
+.block-message p {
+  color: #555;
+  margin: 20px 0;
+  
+}
+
+.block-message button {
+  padding: 10px 20px;
+  background-color: #4267b2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: hsl(0, 0%, 100%); 
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  margin-top: 150px;
+  
+    
+    text-align: center;
+    padding: 20px;
+}
+
+.languages {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.languages li {
+  display: inline;
+  margin: 0 10px;
+  color: #555;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-links a {
+  color: #555;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
